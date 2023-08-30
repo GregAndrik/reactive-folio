@@ -14,7 +14,7 @@
 :root {
     --color-dark: #111; 
     --color-primary: #212121;
-    --color-tint: #494949;
+    --color-grey: #494949;
     --color-light: #BABABA;
     --color-white: #EDECE6;
     --color-accent: #E67E22;
@@ -38,7 +38,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color-tint); /* color of the thumb */
+    background-color: var(--color-grey); /* color of the thumb */
     border-radius: 3px;
 }
 
@@ -129,6 +129,7 @@ img {
         color: var(--color-primary);
         background-color: var(--color-white);
         transition: var(--transition);
+        box-shadow: 0 2px 4px var(--color-accent);
     }
 
     .mobile-exclusive {

@@ -53,7 +53,7 @@
 }
 
 .nav-standard li:hover {
-    background-color: var(--color-tint);
+    background-color: var(--color-grey);
 }
 
 .nav-standard-site-title {
