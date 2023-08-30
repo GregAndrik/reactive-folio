@@ -1,0 +1,30 @@
+footer {
+    text-align: center;
+    background: var(--color-accent);
+    padding: 7rem 0 3rem;
+}
+
+.footer-copyright p, h5 {
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1280px) {
+    footer {
+        padding: 3rem 0 7rem;
+    }
+
+    .footer-copyright p, h5 {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    footer {
+        padding: 1rem 0 5rem;
+    }
+
+    .footer-copyright p, h5 {
+        font-size: 0.8rem;
+    }  
+}

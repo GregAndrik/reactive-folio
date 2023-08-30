@@ -1,0 +1,172 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-text h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.success-message {
+    color: var(--color-accent);
+    font-size: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    width: 40%;
+}
+
+form textarea::placeholder, input::placeholder {
+    color: var(--color-light); 
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-accent);
+    resize: vertical;
+    max-height: 20rem;
+    color: var(--color-white);
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 15rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .contact-text h2 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    form {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-height: 750px) {
+    .contact-text h2 {
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .contact-text h2 {
+        margin-inline: 5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .contact-text h2 {
+        font-size: 1.4rem;
+    }
+
+    form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {  
+    .contact-text h2 {
+        font-size: 1.3rem;
+    }
+
+    form {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 700px) {  
+    form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    input, textarea {
+        padding: 1.3rem;
+        border: 1px solid var(--color-accent);
+        resize: none;
+    }
+
+    form {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-text h2 {
+        font-size: 1.1rem;
+    }
+
+    form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-text h2 {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    input, textarea {
+        padding: 1.2rem;
+    }
+
+    form {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .contact-text h2 {
+        font-size: 1rem;
+    }
+    
+    input, textarea {
+        font-size: 0.9rem;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (min-height: 650px) and (max-height: 750px) {
+    .contact-section {
+        height: 85vh;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .contact-section {
+        height: 100vh;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,152 @@
+.mobile-exclusive {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-exclusive-site-title {
+    color:var(--color-light);
+}
+
+.mobile-exclusive-platforms {
+    margin-top: 0.4rem;
+}
+
+.mobile-exclusive-platforms .platforms {
+    gap: 0.5rem;   
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+}
+
+.home-container h1 {
+    font-size: 4rem;
+    line-height: 1.4;
+}
+
+.standard-exclusive-platforms .platforms {
+    font-size: 2rem;
+    gap: 1rem;
+    margin: 1rem 0 0 0.3rem;
+}
+
+.home-text {
+    margin: 1rem 0 2rem 0.1rem;
+}
+
+.home-text-length {
+    white-space: normal; /* Allow text to wrap within the element */
+    word-wrap: break-word; /* Break words to prevent overflow */
+    max-width: 600px; /* Adjusting so that the react emoji doesn't appear on it's own */
+}
+
+.home-icons {
+    font-size: 1.5rem;
+    color: var(--color-accent);
+}
+
+@media screen and (max-width: 1100px) {
+    .home-container h1 {
+        font-size: 1.7rem;
+    }
+
+    .home-container p {
+        font-size: 1rem;
+    }
+
+    .standard-exclusive-platforms .platforms {
+        margin-bottom: -0.5rem;
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+    
+    .home-text {
+        margin-left: 0;
+    }
+
+    .home-text-length {
+        margin-top: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .primary-button {
+        font-size: 1rem;
+    }
+}
+
+/* Nav breakpoint */
+@media screen and (min-width: 1281px) {
+    .mobile-exclusive {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .standard-exclusive-platforms {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-text-length {
+        margin-top: 1rem;
+        gap: 0.4rem;
+        max-width: 450px; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-container h1 {
+        font-size: 1.3rem;
+    }
+
+    .home-container p {
+        font-size: 1rem;
+    }
+
+    .home-text-length {
+        max-width: 300px; 
+    }
+
+    .mobile-exclusive-site-title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .home-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .home-container p {
+        font-size: 0.9rem;
+    }
+
+    .home-text {
+        margin: 1rem 0 1.5rem 0.1rem;
+    }
+
+    .home-text-length {
+        max-width: 280px; 
+    }
+
+    .primary-button {
+        font-size: 0.9rem;
+        padding: 0.55rem 1rem;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .home-container {
+        height: 80vh;
+    }
+}

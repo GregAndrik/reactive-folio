@@ -1,0 +1,11 @@
+.platforms {
+    display: flex;
+    gap: 0.8rem;
+}
+
+@media screen and (min-width: 1281px) {
+    .platforms a:hover {
+        color: var(--color-white);
+        transform: var(--magnify-effect);
+    }
+}

@@ -1,0 +1,139 @@
+.project-section {
+    height: 100vh;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+.project-item {
+    background: var(--color-tint);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    color: var(--color-white);
+}
+
+.project-info {
+    height: 20rem;
+    overflow: hidden;
+}
+
+.project-info h3 {
+    margin: 1.2rem 0 0.4rem;
+    text-align: center;
+    color: var(--color-accent);
+}
+
+.project-item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.project-item-cta {
+    justify-content: center;
+    display: flex;
+    margin: 1rem 0;
+    gap: 0.8rem;
+}
+
+@media screen and (max-width: 1775px) {
+    .project-info {
+        height: 25rem;
+    }
+}
+
+@media screen and (max-width: 1468px) {
+    .project-info {
+        height: 27rem;
+    }
+}
+
+@media screen and (max-width: 1419px) {
+    .project-info {
+        height: 30rem;
+    }    
+}
+
+/* Nav breakpoint */
+@media screen and (min-width: 1281px) {
+    .projects-mobile-exclusive {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        padding-bottom: 5rem;
+    }
+
+    .project-info {
+        height: 22rem;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .project-info {
+        height: 26rem;
+    }  
+}
+
+@media screen and (max-width: 786px) {
+    .project-info {
+        height: 30rem;
+    }  
+}
+
+@media screen and (max-width: 686px) {
+    .project-info {
+        height: 35rem;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .project-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .project-section {
+        padding-top: 2rem;
+    }
+
+    .project-info {
+        height: 24rem;
+    } 
+}
+
+@media screen and (min-width: 600px) {
+    .project-item:hover {
+        border-color: var(--color-accent);
+        background: transparent;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project-item {
+        font-size: 0.9rem;
+    }
+
+    .project-item h3 {
+        margin: 0.6rem 0 1rem;
+    }
+
+    .project-item-cta {
+        margin-bottom: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 282px) {  
+    .project-info {
+        height: 25rem;
+    }   
+}
