@@ -7,7 +7,7 @@ const Platforms = () => {
   // rel for security on old browsers
   return (
     <div className='platforms'>
-      <a href='https://www.linkedin.com/in/grigorios-andrikopoulos-772506198' target='_blank' rel='noopener noreferrer'><BsLinkedin /></a>
+      <a href='https://www.linkedin.com/in/gregory-andrik/' target='_blank' rel='noopener noreferrer'><BsLinkedin /></a>
       <a href='https://github.com/GregAndrik' target='_blank' rel='noopener noreferrer'><FaGithub /></a>
       <a href='mailto:andrikgreg@gmail.com' target='_blank' rel='noopener noreferrer'><AiFillMail /></a>
     </div>
