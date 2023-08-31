@@ -1,7 +1,7 @@
 import Platforms from './platforms/Platforms'
 import { FaComputer } from 'react-icons/fa6';
 import { BiLogoReact } from 'react-icons/bi'
-import resume from '../../../assets/CV_Andrikopoulos.pdf'
+import resume from '../../../assets/CV-Andrikopoulos.pdf'
 import Footer from '../../footer/Footer'
 import './home.css'
 
