@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <section>
           <div className='home-container'>        
-            <h1>Hi, I am Greg | <span style={{color:'var(--color-accent)'}}>Computer <br/>Engineer</span></h1>
+            <h1>Hi, I am Greg | <span style={{color:'var(--color-accent)'}}>Web <br/>Developer</span></h1>
             <div className='standard-exclusive-platforms'>
               <Platforms />
             </div> 
