@@ -12,10 +12,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-
-/**
- * npm install react-router-dom --save
- * npm install react-icons --save
- * npm install emailjs-com --save
- * npm install @babel/core @babel/preset-react @babel/plugin-proposal-private-property-in-object --save-dev
- */

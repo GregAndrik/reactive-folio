@@ -9,11 +9,11 @@
     color:var(--color-light);
 }
 
-.mobile-exclusive-platforms {
+.mobile-exclusive-links {
     margin-top: 0.4rem;
 }
 
-.mobile-exclusive-platforms .platforms {
+.mobile-exclusive-links .links{
     gap: 0.5rem;   
 }
 
@@ -29,9 +29,9 @@
     line-height: 1.4;
 }
 
-.standard-exclusive-platforms .platforms {
+.standard-exclusive-links .links {
     font-size: 2rem;
-    gap: 1rem;
+    gap: 0.8rem;
     margin: 1rem 0 0 0.3rem;
 }
 
@@ -59,7 +59,7 @@
         font-size: 1rem;
     }
 
-    .standard-exclusive-platforms .platforms {
+    .standard-exclusive-links .links {
         margin-bottom: -0.5rem;
         margin-left: 0;
         font-size: 1.5rem;
@@ -87,7 +87,7 @@
 }
 
 @media screen and (max-width: 1280px) {
-    .standard-exclusive-platforms {
+    .standard-exclusive-links {
         display: none;
     }
 }
