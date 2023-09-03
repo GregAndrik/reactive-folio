@@ -28,7 +28,7 @@ const Contact = () => {
         ) : (
           <>
             <div className='contact-text'>
-              <h2>Thanks for taking the time to reach out. Want to get to know more about me? I will be happy to make your acquaintance, so let's have a talk!</h2>
+              <h2>Say hello!</h2>
             </div>
             <div className='contact-container'>
               <form ref={form} onSubmit={sendEmail}>
