@@ -1,11 +1,3 @@
-/**
- * npm install emailjs-com --save
- * https://dashboard.emailjs.com/
- * Create user account
- * Create and configure email service
- * Create email template
- * To link emailJS configure with React - Emailjs
- */
 import React, { useState, useRef } from 'react' 
 import emailjs from 'emailjs-com'
 import './contact.css'
