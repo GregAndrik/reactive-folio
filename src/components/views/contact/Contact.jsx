@@ -8,7 +8,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    //link parameters "SERVICE_ID", "TEMPLATE_ID", "PUBLIC_KEY" with Emailjs.com user
+    // Link parameters "SERVICE_ID", "TEMPLATE_ID", "PUBLIC_KEY" with Emailjs.com user
     emailjs.sendForm('service_2925ses', 'template_6b7kvjv', form.current, 'EFQ9sMhjLsfH1G8ks')
       .then((result) => {
         console.log(result.text);
@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <section className='contact-section'>
       <div className='container'>
-        {isSubmitted ? ( // Display success message if form is submitted
+        {isSubmitted ? ( 
           <div className='success-message'>Form submitted successfully!</div>
         ) : (
           <>

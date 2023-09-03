@@ -1,4 +1,4 @@
-export default function Bio() {
+export default function Bio () {
   return (
     <div>
       <h3>Introduction:</h3>
