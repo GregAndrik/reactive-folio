@@ -29,6 +29,10 @@
     line-height: 1.4;
 }
 
+.web-developer-span {
+    color: var(--color-accent);
+  }
+
 .standard-exclusive-links .links {
     font-size: 2rem;
     gap: 0.8rem;
