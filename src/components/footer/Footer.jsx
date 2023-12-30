@@ -1,5 +1,5 @@
-import {HiOutlineMail} from 'react-icons/hi'
-import './footer.css'
+import {HiOutlineMail} from 'react-icons/hi';
+import './footer.css';
 
 const Footer = () => {
   return (
@@ -12,4 +12,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

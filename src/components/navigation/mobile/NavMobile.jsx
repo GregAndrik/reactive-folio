@@ -1,7 +1,7 @@
 import CustomLink from '../shared/CustomLink';
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
-import { MdOutlineWorkOutline } from 'react-icons/md'
-import { BiMessageSquareDetail } from 'react-icons/bi'
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { MdOutlineWorkOutline } from 'react-icons/md';
+import { BiMessageSquareDetail } from 'react-icons/bi';
 import './navMobile.css'; 
 
 const NavMobile = () => {

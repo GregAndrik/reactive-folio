@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import CustomLink from '../shared/CustomLink';
-import './navStandard.css'
+import './navStandard.css';
 
 const NavStandard = () => {
   return (

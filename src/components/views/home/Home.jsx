@@ -1,9 +1,9 @@
-import Links from './links/Links'
+import Links from './links/Links';
 import { FaComputer } from 'react-icons/fa6';
-import { BiLogoReact } from 'react-icons/bi'
-import resume from '../../../assets/CV-Andrikopoulos.pdf'
-import Footer from '../../footer/Footer'
-import './home.css'
+import { BiLogoReact } from 'react-icons/bi';
+import resume from '../../../assets/CV-Andrikopoulos.pdf';
+import Footer from '../../footer/Footer';
+import './home.css';
 
 const Home = () => {
   return (
@@ -34,4 +34,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

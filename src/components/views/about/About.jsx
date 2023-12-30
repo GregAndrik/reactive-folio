@@ -1,15 +1,15 @@
-import React from 'react'
-import avatar from '../../../assets/dummy-avatar.png';
+import React from 'react';
+import artwork from '../../../assets/artwork.png';
 import Bio from './Bio';
-import './about.css'
+import './about.css';
 
 const About = () => {
   return (
     <section>
       <div className='container about-container'>
-        <div className='about-avatar'>
-          <div className='about-avatar-image'>
-            <img src={avatar} alt=''/>
+        <div className='about-artwork'>
+          <div className='about-artwork-image'>
+            <img src={artwork} alt=''/>
           </div>
         </div>
         <div className='bio'>
@@ -20,4 +20,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

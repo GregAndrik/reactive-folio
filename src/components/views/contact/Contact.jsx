@@ -1,6 +1,6 @@
-import React, { useState, useRef } from 'react' 
-import emailjs from 'emailjs-com'
-import './contact.css'
+import React, { useState, useRef } from 'react';
+import emailjs from 'emailjs-com';
+import './contact.css';
 
 const Contact = () => {
   const form = useRef();
@@ -45,4 +45,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;

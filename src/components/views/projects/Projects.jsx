@@ -1,8 +1,8 @@
-import React from 'react'
-import _cryptonym from '../../../assets/_cryptonym-showcase.png'
-import keyforge from '../../../assets/keyforge-showcase.png'
-import xo from '../../../assets/x-o-showcase.png'
-import './projects.css'
+import React from 'react';
+import _cryptonym from '../../../assets/_cryptonym-showcase.png';
+import keyforge from '../../../assets/keyforge-showcase.png';
+import xo from '../../../assets/x-o-showcase.png';
+import './projects.css';
 
 const data = [
   {
@@ -62,4 +62,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;
