@@ -25,7 +25,7 @@ const Home = () => {
               Lifelong learner in pursuit of turning passion <FaComputer className='align-icons home-icons'/> into profession. 
               Looking forward to meeting new people and developing projects as a team! <BiLogoReact className='align-icons home-icons'/>
             </p>
-            <a href={resume} download className='primary-button long-button'>Download Resume</a>  
+            <a href={resume} download="CV-Andrikopoulos.pdf" className='primary-button long-button'>Download Resume</a>  
           </div>
         </section>
       </header>
