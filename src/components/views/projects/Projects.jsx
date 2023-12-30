@@ -9,7 +9,7 @@ const data = [
     id: 1,
     image: _cryptonym,
     title: '_cryptonym',
-    description: 'Inspired from a beloved TV show, this application showcases text file Encryption and Decryption through the utilization of the CryptoJS algorithm. Designed as a mock project, one that I thoroughly enjoyed working on. It offers a glimpse into the portrayal of a fictional deep government organization\'s web page, reminiscent of what is often depicted on television.',
+    description: 'Inspired by a beloved TV show, this application features text file Encryption and Decryption through the utilization of the CryptoJS algorithm. Designed as a mock project, one that I thoroughly enjoyed working on. It offers a glimpse into the portrayal of a fictional deep government organization\'s web page, reminiscent of what is often depicted on television.',
     github: 'https://github.com/GregAndrik/_cryptonym',
     netlify: 'https://greg-cryptonym.netlify.app'
   },
@@ -17,7 +17,7 @@ const data = [
     id: 2,
     image: keyforge,
     title: 'Keyforge',
-    description: 'This application is a tool that I always wanted to build for myself. It is a password generator that allows the user to define parameters and create passwords securely. Due to my security obsession, I was always skeptical about online password generators and hoped to one day create my own. Without any attached database, the integrity of generated passwords is assured.',
+    description: 'This application is a tool that I always wanted to build for myself. It is a password generator that allows the user to define parameters and generate passwords securely. Due to my security obsession, I was always skeptical about online password generators and hoped to one day create my own. Without any attached database, the integrity of generated passwords is assured.',
     github: 'https://github.com/GregAndrik/Keyforge',
     netlify: 'https://greg-keyforge.netlify.app'
   },
@@ -25,7 +25,7 @@ const data = [
     id: 3,
     image: xo,
     title: 'X-O',
-    description: 'This is a tic-tac-toe game that I developed during my time as a tutor. Tailored to young children, it embraces vibrant colors that resonate with their preferences. My students asked for this and the requirements were clear... They wanted for each player to be able to input their name, and also to pick a color. Additionally, they requested an integrated scoring system.',
+    description: 'This is a tic-tac-toe game that I developed during my time as a tutor. Tailored to young children, it embraces vibrant colors that resonate with their preferences. My students asked for this and the requirements were clear... They wanted for each player to be able to input their name, and also pick a color. Additionally, they requested an integrated scoring system.',
     github: 'https://github.com/GregAndrik/x-o',
     netlify: 'https://greg-x-o.netlify.app'
   }

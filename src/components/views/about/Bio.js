@@ -4,14 +4,14 @@ export default function Bio () {
       <h3>Introduction:</h3>
       <p>
         My passion for programming ignited during my high school years when I was first introduced to it through my school's curriculum. Even before completing high school,
-        programming had evolved into a lasting hobby that led me to envision a career path with certainty. I pursued my education at the University of Thessaly, earning a Bachelor's
+        programming had evolved into a lasting hobby that led me to envision a career path with certainty, so I pursued my education at the University of Thessaly, earning a Bachelor's
         degree in Computer Science. This academic journey has been complemented by continuous personal research and skill refinement. Alongside, I am enthusiastic about exploring 
         various web technologies that capture my interest, thereby cultivating a versatile skill set to contribute effectively within development teams. My aspiration is to work with
         the best and learn from the best, absorbing knowledge and broadening my expertise across diverse IT domains.
       </p>
       <h3>Soft skills:</h3>
       <p>
-        I bring with me a few good years of valuable experience as an IT teacher. This role has taught me to adeptly tailor my teaching approach to accommodate varying learning paces, 
+        I bring with me a few good years of valuable experience as an IT teacher. This job has taught me to adeptly tailor my teaching approach to accommodate varying learning paces, 
         enabling me to effectively impart knowledge to a wide range of students, including those with unique learning needs that demand additional patience. Through this experience,
         I have honed the ability to break down complex problems into manageable components, facilitating better comprehension and problem-solving. Naturally, my communication skills 
         have seen significant enhancement. 
